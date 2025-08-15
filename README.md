@@ -57,8 +57,21 @@ Launch the perception manager:
 ros2 run raspberry_perception manager_node
 ```
 
+## Development
+
+To test the build:
+```bash
+colcon build --packages-select raspberry_perception
+source install/setup.bash
+```
+
+To update submodules:
+```bash
+git submodule update --remote
+```
+
 ## License
 
 This project combines components under different licenses:
-- Custom code: [Your License]
+- Custom code: MIT
 - Isaac ROS components: Apache 2.0 (NVIDIA) 
