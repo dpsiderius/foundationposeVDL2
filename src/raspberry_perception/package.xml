@@ -3,7 +3,7 @@
   <name>raspberry_perception</name>
   <version>0.0.1</version>
   <description>ROI selection, SAM mask, and manager orchestration</description>
-  <maintainer email="you@example.com">You</maintainer>
+  <maintainer email="dpsiderius@gmail.com">Diederik Siderius</maintainer>
   <license>MIT</license>
   <buildtool_depend>ament_python</buildtool_depend>
   <depend>rclpy</depend>
